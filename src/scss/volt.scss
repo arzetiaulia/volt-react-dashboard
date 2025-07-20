@@ -1,31 +1,27 @@
-// Bootstrap mixins and functions
+// Bootstrap functions and mixins
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/mixins";
 
-// Change variables here
+// Custom variables override
 @import "volt/variables";
 
-// Bootstrap
+// Bootstrap main SCSS
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Vendor
+// Vendor styles
 @import "volt/vendor";
 
-// volt mixins & functions
+// Volt custom SCSS
 @import "volt/mixins";
 @import "volt/functions";
-
-// Utilities
 @import "volt/reboot";
 @import "volt/utilities";
-
-// Layout
 @import "volt/layout";
-
-// Components
 @import "volt/components";
 
-// write your custom styles here!
+// Tambahkan custom styles kamu di bawah ini
+
+
 
 
 
