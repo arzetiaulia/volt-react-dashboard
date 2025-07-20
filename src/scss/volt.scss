@@ -11,25 +11,20 @@
 
 // =========================================================
 
-// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
-
-/* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap");
-
-// Bootstrap functions harus di atas mixins
-@import "../../node_modules/bootstrap/scss/functions";
+// Bootstrap mixins and functions
 @import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
 
 // Change variables here
 @import "volt/variables";
 
-// Bootstrap core
+// Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Vendor
 @import "volt/vendor";
 
-// Volt mixins & functions
+// volt mixins & functions
 @import "volt/mixins";
 @import "volt/functions";
 
@@ -43,4 +38,4 @@
 // Components
 @import "volt/components";
 
-// Custom styles (optional tambahin gaya kamu sendiri di bawah ini)
+// write your custom styles here!
