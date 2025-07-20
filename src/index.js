@@ -3,33 +3,30 @@
 // =========================================================
 
 // * Product Page: https://themesberg.com/product/dashboard/volt-react
-// * Copyright 2021 Themesberg (https://www.themesberg.com)
+// * Copyright 2021 Themesberg
 // * Official Repository: https://github.com/themesberg/volt-react-dashboard
-// * License: MIT License (https://themesberg.com/licensing)
+// * License: MIT License
 
 // * Designed and coded by https://themesberg.com
-
 // =========================================================
 
-// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
-
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { HashRouter } from "react-router-dom";
+import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
 
 // core styles
-import "./scss/volt.scss";
+import './scss/volt.scss';
 
 // vendor styles
-import "react-datetime/css/react-datetime.css";
+import 'react-datetime/css/react-datetime.css';
 
-import HomePage from "./pages/HomePage";
-import ScrollToTop from "./components/ScrollToTop";
+import HomePage from './pages/HomePage';
+import ScrollToTop from './components/ScrollToTop';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <HashRouter>
     <ScrollToTop />
     <HomePage />
-  </HashRouter>,
-  document.getElementById("root")
+  </HashRouter>
 );
